@@ -34,12 +34,6 @@ class ContactForm extends Component {
 
         const { name, number } = values;
 
-        contacts.map(contact => {
-            if (contact.name === name) {
-            alert(`${name} is already in contacts`);
-            return
-        }})
-
         let addedContact = {
             name,
             number,
@@ -50,8 +44,8 @@ class ContactForm extends Component {
         let isAdded = true;
 
         contacts.map(contact => {
-            if (contact.name === name.value) {
-            alert(`${name.value} is already in contacts`);
+            if (contact.name === name) {
+            alert(`${name} is already in contacts`);
             return (isAdded = false);
             };
             return isAdded
