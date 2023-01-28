@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Button from '../../../../shared/components/Button/Button';
+import Button from '../../../shared/Button/Button';
 import { ContactName, ContactNumber } from './ContactListItem.styled';
 
 const ContactListItem = ({ id, name, number, deleteContact }) => {

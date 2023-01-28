@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import InputName from '../../../shared/components/InputName/InputName';
+import InputName from '../../shared/InputName/InputName';
 import { FilterWrapper } from './Filter.styled';
 
 const Filter = ({ findContact }) => {

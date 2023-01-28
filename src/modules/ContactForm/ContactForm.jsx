@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Formik, Field } from 'formik';
 import * as Yup from "yup";
 import "yup-phone";
-import Button from '../../../shared/components/Button/Button';
-import InputName from '../../../shared/components/InputName/InputName';
+import Button from '../../shared/Button/Button';
+import InputName from '../../shared/InputName/InputName';
 import { Title, Label, FormAdd, ErrorsMessage } from './ContactForm.styled';
 
 export const schema = Yup.object({

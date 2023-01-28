@@ -12,8 +12,7 @@ const ContactList = ({ contacts, deleteContact, findContact }) => {
                 return (
                     <Contact key={id}>
                         <ContactListItem id={id} name={name} number={number} deleteContact={deleteContact} />
-                    </Contact>
-                    
+                    </Contact>  
                 );
                 })}
             </PhoneBookList>
